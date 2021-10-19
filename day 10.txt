@@ -1,0 +1,74 @@
+disctionary
+**how to get the institution name by searching the roll number???
+students_roll={"ahsan":1,
+               "Safwaan":5,
+               "farzana":3,
+               "osama":7
+               }
+students_inst={"ahsan":"DRMC",
+               "Safwaan":"Mastermind",
+               "Farzana":"AIUB",
+               "osama" :"AIUB-Batch21"
+                }
+roll=int(input("enter roll:"))
+for i in students_roll.items():
+    if i[1]==roll:
+        name=i[0]
+print("the roll belongs to ",students_inst[name])
+
+here ahasan in student roll is 0[index]
+here 1 in student roll is 1[index]
+**how to get the institution name by searching the roll number??? using flags
+flag=False
+students_roll={"ahsan":1,
+               "Safwaan":5,
+               "farzana":3,
+               "osama":7
+               }
+students_inst={"ahsan":"DRMC",
+               "Safwaan":"Mastermind",
+               "Farzana":"AIUB",
+               "osama" :"AIUB-Batch21"
+                }
+roll=int(input("enter roll:"))
+for i in students_roll.items():
+    if i[1]==roll:
+        name=i[0]
+if flag==True:
+    print("the roll belongs to ",students_inst[name])
+elif flag==False:
+    print("Wrong number been inputted")
+
+
+***************array*********************
+import numpy as np
+arr=np.array([0,1,2,3,4,5])
+print(arr)
+*we have to install numpy by typing pip.install numpy
+
+import numpy as np
+arr2=np.array([1,2,3,4,5],
+              [6,7,8,9,10],
+              [11,12,13,14,15,16])
+print(arr2[2][1])
+here the [2] define the row
+and the [1] define the coloumn
+*how to print everything in an array in a row
+import numpy as np
+arr=np.array([1,2,3])
+Arr=np.array([[5,8,7],
+             [6,7,9],
+             [10,11,12]])
+for i in range(0,3):
+    for j in range(0,3):
+        print(Arr[i][j])
+*how to print everything in an array in a row and add +1 to them
+import numpy as np
+arr=np.array([1,2,3])
+Arr=np.array([[5,8,7],
+             [6,7,9],
+             [10,11,12]])
+for i in range(0,3):
+    for j in range(0,3):
+        Arr[i][j]=Arr[i][j]+1
+        print(Arr[i][j])

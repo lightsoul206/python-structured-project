@@ -1,0 +1,105 @@
+********************break loop*************
+i=0
+while i<10
+i==5 
+break:
+print(i)
+i=i+1
+ans:0,1,2,3,4
+
+i=0
+while i<10
+print(i)
+i=i+1
+if i==5
+break
+*entre a password using loop
+code=""
+while True:                                 
+    code=input("entre the code ")
+    if(code=="abcd1234"):
+        print("u have entered successfully")
+        break
+    else:
+        print("denied entre again")
+
+or
+code=""
+i=6
+while i>0:                                 
+    code=input("entre the code ")
+    if(code=="abcd1234"):
+        print("u have entered successfully")
+        break
+    else:
+        print("denied entre again")
+
+*we can input password only three times
+code=''
+i=0
+while i>3:
+	code=input("entre a code")
+	if code="abcd1234":
+	   print("you have entered successfully")
+	   break
+	print("incorrect code try again")
+	i=i+1
+	if i==3
+	   print("you have no atttempts left")
+ 	   break
+.break =it stops the loop and ends the loop from the starting
+********************continue loop***************
+.entre a password using continue loop
+code = ""
+i = 0
+flag=True
+while flag:
+    code=input("entre a secret code:")
+    if code!="abc":
+        print("incorrect code")
+        continue
+    flag=False
+    print("you have entered successfully")
+
+continue=it replays the loop from begining
+****for loop****
+*if we want to print numbers from 0 to 6
+answer:
+for i in range(7):
+    print(i)
+*here the i is variable
+*you cannot insert the value for "for"
+for example i=2
+the end result will be same 
+so in the for loop it is started from 0
+not from while loop
+
+*
+for i in range(0,50,5)
+here it will go up to 50 but at a gap of 5
+answer:for i in range(0,50,5):
+    print("safwaan",i)
+* how to add up all numbers from 0 to 100?
+answer:i=0
+sum=0
+while i <=100:
+    sum = sum + i
+    i=i+1
+print('the sum up to 100:',sum)
+*find out the sum of all even numbers from 0 to 100
+answe:sum=0
+for i in range(101):
+    if(i%2==0):
+        sum=sum+i
+print(sum)
+or
+sum=0
+for i in range(0,101,2):
+    sum=sum+i
+print(sum)
+
+
+
+sum=0
+for i in range(10,0,1):
+    print(i)

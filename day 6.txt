@@ -1,0 +1,46 @@
+there are two types of functions
+.user defined function
+.system library function(built in function)
+USER DEFINED FUNCTION
+.function that has a return type
+.void
+
+def sum(a,b)
+	ans=a+b
+	return ans
+
+x=sum(2,3)
+print(x)
+modulus=the conversion of negative number to positive numbers
+def mod(n):
+    if(n<0):
+        n=n*(-1)
+
+    return n
+num=int(input('enter a number'))
+ans=mod(num)
+print(ans)
+*above 45000 32% tax below 18% tax function problems
+answer:def tax(income):
+    if income>=45000:
+        tax=income*0.32
+    else:
+        tax=income*0.18
+    return tax
+earning=int(input("enter earning"))
+print("total tax is ",tax(earning))
+
+*increment of salary
+def work_experience(joining_year):
+    total_years=2021-joining_year
+    return total_years
+def sal_increament(starting_sal,exp):
+    increment_sal=starting_sal*(exp*0.10)
+    new_sal=increment_sal +starting_sal
+    return new_sal
+year=int(input("enter joining year"))
+startsal=int(input("enter starting salary:"))
+rate=int(input("entre salary increment rate"))
+experience=work_experience(year)
+newsalary=sal_increament(startsal,experience)
+print("your new salary after",experience,"yeats:",newsalary)

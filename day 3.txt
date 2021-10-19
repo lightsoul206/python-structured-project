@@ -1,0 +1,70 @@
+               TYPECASTING
+
+the conversion of integer to string or viceversa
+
+fibannoci sequence=0,1,1,2,3,5(here see,0+1=1,1+1=2,2+1=3,it is the addition of the first number and the previous number)
+
+questions
+.input a number.add 15 to it and then multiply 5 to it.
+.input a radius and then measure the area of a circle.
+.input the base and height from the user and calculate the area of a triangle.
+.calculate the earning of a person in january,whereas input his daily wage  
+.input an hour and the convert the hour to seconds
+not necessary question
+.make a problem regarding febanooqi sequence
+
+
+                                                                   IF/ELSE
+we have to make if in each single line for example
+if roll==1
+	print()
+if roll=2
+see here the if are in the starting 
+
+whereas
+if roll==1
+   print()
+   if roll==2
+here the if is a tab away sp it will be nested elif 
+
+condition of operators:
+.And(&)
+.OR
+.==(equals to)
+.!=(not equals to)
+.<(smaller than )
+.<=(less than equal to)
+.>=(greater than equal to)
+.>=(greater than)
+
+
+why it is == not =???
+ANS:for example a=5
+here the 5 is assigned in a
+
+hence
+if
+a==5
+here it varifies is it 5 or 4 if it is 5 then true(boolean) if it is 4(false(boolean)) 
+*difference between if and elif.
+in IF we start the statment by this 
+in elif we do the statements after if
+
+UNDERSTAND IT AT HOME
+roll=6
+if(roll!=1)
+	print("it is A")
+else:
+print("it is B")
+
+
+else
+else is anything except if
+
+questions:
+.input a password.if the password is abcd1234 then it is valid or else it is not
+.input num 1 and num2 multiply both of them if their product is greater than 100 then it is greater if is less than 100 then it is less than
+.input num1 and num2 see if num1 is greater than less than or equal to num2
+
+
+

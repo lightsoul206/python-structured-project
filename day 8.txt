@@ -1,0 +1,66 @@
+                                                         lists
+*find out the students by inputing a particular age
+*find out the students by inputing a particular age(students of same age should be shown in output)
+ans
+name=["safwaan","osama","ahsan"]
+age=[12,14,15]
+boyosh=int(input("entre the age"))
+i=0
+flag=False
+while i<len(name):
+    if(age[i]==boyosh):
+        print(name[i]+"is",boyosh[i],"years old.")
+        flag=True
+    i=i+1
+if(flag==False):
+    print("age is not found")
+
+
+*find out the number of years month days seconds hours minute from a given days
+def generateYrs(tot_days):
+    yrs=(int)(tot_days/365)
+    rem_days=tot_days%365
+    months=(int)(rem_days/30)
+    days=rem_days%30
+    print("years",yrs)
+    print("months:",months)
+    print("days:",days)
+days=int(input("entre the number of days "))
+generateYrs(days)
+
+*slicing a string
+[0:5]
+animals=["birds","tiger","monkey","girafe","cat"]
+print(animals[2][3:6])
+
+*how to add two lists using while loop
+animals1=["birds","tiger","monkey","girafe","cat"]
+animals2=["human","donkey","cow","goat","rabbit"]
+animal=animals2+animals1
+i=0
+while i<len(animal):
+    print(animal[i],end=" ")
+    i=i+1
+*how to add two lists using for loop
+animals1=["birds","tiger","monkey","girafe","cat"]
+animals2=["human","donkey","cow","goat","rabbit"]
+animal=animals2+animals1
+for i in animal:
+    print(i,end=" ")
+ or
+animals1=["birds","tiger","monkey","girafe","cat"]
+animals2=["human","donkey","cow","goat","rabbit"]
+animal=animals2+animals1
+for i in range(0,len(animal)):
+    print(animal[i],end=" ")
+*how to sort out things in a list
+sort=small to big
+list=[1,2,3,4,5,6,7,8,12,9,10]
+list.sort()
+print(list)
+*sort=big to small
+list=[1,2,3,4,5,6,7,8,12,9,10]
+list.sort()
+print(list)
+list.reverse()
+print(list)

@@ -1,0 +1,90 @@
+*how to capitalise everything in a string
+*how to make every letter small in a string
+.we cannot print anything after x
+answe:
+string="My name is X.I study at MM"
+flag=False
+for i in range(0,len(string)):
+    if string[i]=="X":
+        index=i
+        print("we found X on index no:",index)
+        flag=True
+        break
+if flag==False:
+    print("x does not exist")
+*input a string using numbers
+
+
+#String Manipulation
+#a = "Hello World."
+#b = a[0:5]
+#print(b)
+ID = input("Enter your student ID: ")
+Batch = ID[0:2]
+Dept = ID[4]
+Program = ID[5:7]
+Serial = ID[7:9]
+
+flag = False
+#For Batches
+if Batch == "17" :
+    print("Batch 17")
+elif Batch == "18" :
+    print("Batch 18")
+elif Batch == "19" :
+    print("Batch 19")
+elif Batch == "20" :
+    print("Batch 20")
+else :
+    print("Invalid Input")
+    flag = True
+
+#For Depts
+if Dept == "4":
+    print("Dept CSE")
+    if Program == "11":
+        print("Program CSE")
+    elif Program == "21":
+        print("Program SWE")
+    else:
+        print("Invalid Input.")
+        flag = True
+elif Batch == "3" :
+    print("Dept EEE")
+elif Batch == "2" :
+    print("Dept CEE")
+elif Batch == "1":
+    print("Dept ME")
+    if Program == "11":
+        print("Program ME")
+    elif Program == "21":
+        print("Program IPE")
+    else:
+        print("Invalid Input.")
+else :
+    print("Invalid Input.")
+    flag = True
+if flag == False :
+    print("Serial No : "+Serial)
+else :
+    print("Enter correct student id")
+*make a phone number using 
+map=detect something for example identifies the value of a
+*how to split thinfs and add up them in a list
+list1=list(map(int,input("enter the values:").split(",")))
+print(list1)
+*how to make a tables of 5
+i=0
+while i<10:
+    print("5x"+(str)(i+1)+"=",5*(i+1))
+    i=i+1
+
+***************dictionary***********************
+syntax
+students={"ahsan":1,
+          "safwaan":5,
+          "sanjida":3,
+          "osama":7
+          }
+#passing the key value of a dictionary
+print(students["ahsan"])

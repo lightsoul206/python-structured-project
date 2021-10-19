@@ -1,0 +1,83 @@
+*find the area of a circle using function
+def areaofacircle(radius):
+#     pie=3.14
+#     area=pie*radius**2
+#     return area
+#
+# rad=int(input("enter the value of radius:"))
+# area=areaofacircle(rad)
+# print("area of a circle",area)
+*find out the area of a triangle using function
+def areaofatriangle(base,height):
+    area=0.5*base*height
+    return area
+
+base=int(input("entre the value of base"))
+height=int(input("entre the value of height",))
+area=areaofatriangle(base,height)
+print("area of a circle",area,"cm2")
+*entre the multiple of a random number
+i=1
+num=int(input("entre a number"))
+while i<=5:
+    ans=num*i
+    print(ans)
+    i=i+1
+
+how to identify a positive and negative number
+def ispositive(flag,num):
+    if(num>=0):
+        flag=True
+    else:
+        flag=False
+    if(flag==True):
+        print("positive")
+    else:
+        print("negative")
+num=int(input("enter a number"))
+flag=False
+print("The number is",end="")
+ispositive(flag,num)
+
+
+
+
+                                                                   LISTS
+
+
+how to add a number in a list
+ans:use an append(it adds element in the last of a list)
+list1=[0,1,2,3,4,5,6,7,8]
+list_new=list1[0]+list1[1]
+list1.append(list_new)
+print(list1)
+
+#len() calculates the length of a list
+
+*how to find the len of a list
+list1=[0,1,2,3,4,5,6,7,8]
+list_new=list1[0]+list1[1]
+list1.append(list_new)
+print(list1)
+size=len(list1)
+print(size)
+
+
+list=["safwaan","kajol","osama","farzana","sir"]
+print(len(list))
+print(list[3])
+flaglist=[True,False,True,False]
+print(flaglist[2])
+*findout the list from a given list
+roll=[101,102,103,1
+
+how to search someone using roll
+roll=[101,102,103,104,105]
+name=["kajwal","safwaam","sir","farzana","osama"]
+i=0
+searchroll=int(input("entre the search rpoll"))
+while i<len(roll):
+    if(i==searchroll):
+        print("roll" ",",searchroll,"is",name[i])
+        break
+i=i+1

@@ -1,0 +1,101 @@
+problems
+.find how to get odd and even numbers 
+.check the number you input is divisibe by 5 or not 
+.p1 has 50% discount
+ p2 has 20% discount
+ p3 has no discount 
+answer:
+
+print("you can entre only p1,p2,p3")
+product_type=input("entre the product type:")
+quantity=int(input("entre the quantity"))
+total=0
+discount=0
+final_amount=0
+flag=False
+if (product_type=='p1'):
+    total=2500*quantity
+    discount=total*0.50
+    final_amount=total-discount
+    print("theprice is", final_amount)
+elif product_type=='p2':
+    total=1500*quantity
+    discount=total*0.20
+    final_amount=total-discount
+    print("the final amount is here:")
+
+elif product_type=="p3":
+    total=1000*quantity
+    discount=total*0
+    final_amount=total-discount
+    print("the final amount is:",final_amount)
+else:
+    flag= False
+
+if flag== True:
+    print("the total price ",final_amount)
+
+else:
+    print("invalid credentials")
+
+you can take any one product but at any moment
+
+
+
+
+
+what does conditional statement for example if else return which data type??
+answer:boolean 
+place where output is shown?
+answer:console
+*******************************LOOP****************************************
+WHILE LOOP:
+firstlu we will define an iterator
+secondly we need to define a condition for running a loop
+lastly we will define a logic that will terminate the loop
+
+syntax
+i=0
+while i<10:
+    print("safwaan")
+    i=i+1
+
+dont use this code to destroy your ram
+i=0
+while i<10:
+    print("safwaan")
+
+
+i-=-2
+
+    # i=100
+    # while i>0:
+    #     print(i)
+    #     i=(int)(i/2)
+i=1600
+while i%2==0:
+    print(i)
+    i=(int(i/2))
+
+
+.print all the even numbers from 0 to 50
+i=0
+while i<=50:
+
+    if(i%2==0):
+        print(i)
+
+    i=i+1
+
+how to find both odd and even numbers from 0 to 50
+i=0
+while i<=50:
+
+    if(i%2==1):
+
+        print(i,"is odd number")
+    elif(i%2==0):
+        print(i,"is even number")
+
+    i=i+1
+

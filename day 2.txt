@@ -1,0 +1,64 @@
+there are 2 types of comment :
+single line comment
+multiple line comment
+multiple line comment='''                   '''(triple inverted coloumns)
+single line comment=#
+
+                                                    DATA TYPE
+.Integer=whole number we will store discrete values in integer
+.float=weight, percentage,currency anything that is after point(2.321)
+.boolean=true/false  true=1,false=0
+.string=group of characters("my name is safwaan")(the thing which is in string is known as string literals)
+
+for string we use +
+for integer we use ,
+age=99(integer)
+age="99"(string)
+age=99.5(float)
+age-false(boolean)
+
+                                                     IDENTIFIER
+name=55
+here name is called identifier
+                                       RULES OF WRITING IDENTIFIERS
+.Identifier can contain small letters,capital letters,digits and underscore
+.digits cannot be in the first place of identifier
+.underscore can be in the begining but it is not recommended by the developers
+.there cannot be any alpha numeric  characters(&,@,!!)
+.we cannot apply built in functions(if else)
+
+
+
+
+
+
+
+                                           How to input something
+for example
+name=input("entre the name")
+
+
+input function evaluates the input as string
+                                           OPERATORS
++=addition
+-=subtraction
+*=multiply
+/=division
+%=modulus=reminder of a number
+**=power of a number
+
+
+  typecasting=changing one data type to another data type .for exampe change of name to integer
+
+
+
+H.W.
+take name,age,salary input
+solution
+name=input('entre your name:')
+age=int(input("entre your age:"))
+salary=float(input("entre your salary"))
+salary_new=salary*2
+print("your name is",name,end="")
+print( "your age is",age)
+print("your salary is",salary_new)
